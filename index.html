@@ -1,77 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>No Cap Shop</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
 </head>
 <body class="fondo">
-    <header class="header">
-        <div class="header__contenido">
-            <h1>
-            
-                <a href="./index.html" class="header__contenido-titulo" >No Cap Shop</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fcfcfe;">
+            <div class="container-fluid">
 
-            </h1>
-        <section>
-            <nav>
-                <!-- Menu Principal -->
-        <ul class="menu__principal">
-            <li><a href="./index.html" class="menu">Menu principal</a></li>
-            <li><a href="./pages/Productos.html" class="menu">Productos </a></li>
-            <li><a href="./pages/Locales.html" class="menu">Locales</a></li>
-            <li><a href="./pages/Sobrenosotros.html" class="menu">Sobre nosotros</a></li>
-            <li><a href="./pages/Contacto.html" class="menu">Contacto    </a></li>
-        </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-            <h2 class="producto__titulo"> Productos recomendados</h2>
-        <!-- flexbox -->
-        <section class="flex">
+                <a class="navbar-brand" href="/index.html">No Cap Shop</a>
 
-            <div class="producto__venta">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                </button>
 
-                <!-- Producto 1 -->
-                <article class="info box">
-                     <div class="info__productos">
-                        <small class="info_productos-venta info__productos-1">Nuestro preferido</small>
-                     <img class="info__imagenes" src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStgaYOjdcDT74TvRR8mKpD72akzR1e_Uw6U9zo6R_XpUiHl6Ku6f-5kY0hznGC5pdffcPkUlsFug&usqp=CAc" alt="Gorra golden state" width="350px">
-                        </div>
-                        <h3 class="productos">Gorra Golden State</h3>
-                        <p class="producto__uno-descripcion">$7599</p>
-                    
-            </article>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
 
-             <!-- Producto 2 -->
-                 <article class="info box">
-                    <div class="info__productos">
-                    <small class="info_productos-venta info__productos-2">En descuento</small>
-                    <img class="info__imagenes" src="https://www.digitalsport.com.ar/files/products/60e7658f1f611-561296-280x280.jpg" alt="Gorra beanie" width="350px">
-                    </div>
-                    <h3 class="productos">Gorra beanie lamux</h3>
-                    <p class="producto__dos-descripcion">$2489</p>
-                </article>
+                        <li class="nav-item">
+                            <div class="contacto">
+                                <a class="nav-link" href="/index.html">Menu Principal</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/Locales.html">Locales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/Sobrenosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/Contacto.html">Contacto</a>
+                        </li>
 
-                    <!-- Producto 3 -->
-                 <article class="info box">
-                     <div class="info__productos">
-                    <small class="info_productos-venta info__productos-3">Lo mas Vendido</small>
-                     <img class="info__imagenes" src="https://www.tripstore.com.ar/media/catalog/product/cache/4769e4d9f3516e60f2b4303f8e5014a8/G/3/G31010381U-100_0.jpg" alt="Gorra Goorin Bros Blanca" width="350px">
-                    </div>
-                    <h3 class="productos">Gorra Goorin Bros Black Panther</h3>
-                    <p class="producto__tres-descripcion">$4999</p>
-                </article>
-
+                    </ul>
+                </div>
             </div>
 
-            
-        </section>
+        </nav>
+    </header>
+    <main>
         <section>
+            <h3 class="text-center producto__titulo">Productos recomendados</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="tarjetas">
+                            <div class="card">
+                                <p class="promo">Producto promocionado</p>
+                                <img src="https://media.newera.com.ar/catalog/product/cache/ecb27aad430e992f71ce4b1eaf85b1d5/7/0/70343683-gorra-new-era-golden-state-warriors-59fifty-2tone-otc.jpg" alt="producto1">
+                                 <h3>Gorra Golden State</h3>
+                                <p>$7599</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-4">
+                                <div class="tarjetas">
+                                    <div class="card">
+                                        <p class="promo">Producto en descuento</p>
+                                        <img src="https://www.digitalsport.com.ar/files/products/60e7658f1f611-561296-280x280.jpg" alt="producto2">
+                                         <h3>Gorra beanie lamux</h3>
+                                        <p>$2489</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-4">
+                                        <div class="tarjetas">
+                                            <div class="card">
+                                                <p class="promo">Producto Mas vendido</p>
+                                                <img src="https://www.tripstore.com.ar/media/catalog/product/cache/4769e4d9f3516e60f2b4303f8e5014a8/G/3/G31010381U-100_0.jpg" alt="producto3">
+                                                 <h3>Gorra Goorin Bros Black Panther</h3>
+                                                <p>$4999</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-        </section>
     </main>
 
     <footer>Todos los derechos reservados No Cap Shop 2022</footer>
