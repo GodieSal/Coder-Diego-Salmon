@@ -66,15 +66,18 @@ h3 {
 }
 
 
-.tarjetas {
-    margin: 20px;
-    padding: 20px;
+#productos-recomendados .tarjetas{
+    margin: 10px;
+    padding: 10px;
     background-color: orange;
     justify-content: center;
-    transition: background-color 1s;
+
 }
-.tarjetas :hover {
+#productos-recomendados .tarjetas :hover {
  background-color: grey;
+ transform: translateY(-15px);
+ cursor: pointer;
+
 }
 
 .promo {
