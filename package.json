@@ -1,0 +1,22 @@
+{
+  "name": "entrega-diego-salmon-pf-1",
+  "version": "1.0.0",
+  "description": "Entregas Coder",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GodieSal/Coder-Diego-Salmon.git"
+  },
+  "author": "Diego Salmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GodieSal/Coder-Diego-Salmon/issues"
+  },
+  "homepage": "https://github.com/GodieSal/Coder-Diego-Salmon#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
