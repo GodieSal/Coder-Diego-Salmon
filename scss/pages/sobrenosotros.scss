@@ -6,13 +6,15 @@
     padding: 20px;
     padding-bottom: 20px;
     background-image: linear-gradient(120deg, gold, orange, orangered);
+
+    &__texto {
+        font-size: 30px;
+        padding-bottom: 20px;
+        background-image: linear-gradient(120deg, gold, orange, orangered);
+    }
 }
 
-.nosotros__texto {
-    font-size: 30px;
-    padding-bottom: 20px;
-    background-image: linear-gradient(120deg, gold, orange, orangered);
-}
+
 
 .img__clientes {
     padding-top: 100px;
