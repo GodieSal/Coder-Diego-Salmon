@@ -1,1 +1,15 @@
-$primary: #22c55e
+$primary: #22c55e;
+$bgDark: #0f172a;
+
+// breakpoints
+$bpSmall: 360px;
+$bpMedium: 550px;
+$bpLarge: 850px;
+
+// utilidades
+$transition: all 0.5s;
+
+// tamaños
+$fontbase: 20px;
+$fontmedium: $fontbase + 10;
+$fontlarge: $fontmedium +10 ;

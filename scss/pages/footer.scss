@@ -1,0 +1,12 @@
+.footer__rrss{
+    $iconsocialmedia: (
+        instagram: #c92d8f,
+        whatsapp: $primary,
+    );
+
+    @each $namesocialmedia,$coloricon in $iconsocialmedia{
+        .rs-#{namesocialmedia{
+            color: white;
+            font-size: 25px;
+        }
+}

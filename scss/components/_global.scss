@@ -12,17 +12,16 @@ body {
 }
 
 main {
+    @include flex(space-between, true);
     background-color: orange;
     color: #e6e1e1;
     text-align: center;
     padding: 20px;
-    display: flex;
-    justify-content: center;
     
 }
 
 
-h3 {
+h1 {
     font-size: 28px;
     color: #333;
     background-color: #fff;
@@ -33,6 +32,9 @@ h3 {
     position: fixed;
     right: 20px;
     bottom: 20px;
+
+    
+
 }   
 .tarjetas {
     margin: 10px;
@@ -65,4 +67,14 @@ h3 {
     background-size: contain;
     background-position: right center;
     z-index: 1;
+}
+
+// mixins
+@mixin flex($valuejustify, $alignitems)  {
+    display: flex;
+    justify-content: $valuejustify;
+
+    @if ($alignitems == true) {
+        align-items: center;
+    }
 }
