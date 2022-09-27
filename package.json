@@ -1,7 +1,7 @@
 {
   "name": "entrega-diego-salmon-pf-1",
   "version": "1.0.0",
-  "description": "Entregas Coder",
+  "description": "Compra venta Gorras",
   "main": "index.js",
   "scripts": {
     "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
