@@ -52,32 +52,25 @@
         </header>   
         <section>
             <hr />
-            <form action="send.php" method="get" enctype="multipart/form-data">
-                <hr />
-                <label for="nombre"> Escriba su nombre</label>
-                <input class="nombre" type="Escriba su nombre" placeholder="Escriba su nombre" />
-
-                <label for="Email">Escriba su email</label>
-                <input class="nombre" type="Ingrese Email" placeholder=" ...@gmail.com" />
-                <textarea class="nombre__texto" cols="20" rows="5" placeholder="Escriba su consulta"></textarea>
-
-
-                <hr />
-                 <input type="radio" name="Recibir noticias y beneficios" id="Suscribite" />
-                 <label for="Suscribite">Recibir noticias y beneficios</label>
-                 <hr />
-                 <fieldset>
-                    <legend>seleccione talle</legend>
-                    <select>
-                        <option>S</option>
-                        <option>M</option>
-                        <option>L</option>
-                    </select>
-                 </fieldset>
-                 <button type="submit">Enviar información</button>
-                 <button type="reset">Borrar información</button>
+            <form class="forme" action="Enviar.php" method="post" enctype="text/plain">
+                <h4 class="text-center">Escriba su consulta y le responderemos a su mail lo antes posible</h4>
+                <input type="text" name="Nombre Y Apellido" placeholder="Nombre y Apellido">
+                <input type="text" name="Correo" placeholder="Correo">
+                <input type="text" name="Nombre" placeholder="Telefono">
+                <p class="pe">Elegi tu consulta</p>
+                <select name="Lenguajes">
+                    <option>Garantia</option>
+                    <option>Disponibilidad de talle</option>
+                    <option>Error en envios</option>
+                    <option>Queja</option>
+                    <option>otros</option>
+                </select>
+                <textarea class="textareaa" name="Mensaje" placeholder="Escriba Aqui Su Mensaje" id="" cols="30"
+                    rows="10"></textarea>
+                <div class="botona">
+                    <input type="submit" class="botonPrinciapal" value="Enviar">
+                </div>
             </form>
-        </section>
     </main>
     <footer class="Footergenerico">
         <div class="container">

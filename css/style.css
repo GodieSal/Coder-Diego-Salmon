@@ -1,4 +1,3 @@
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -66,16 +65,15 @@ iframe {
   justify-content: center; }
 
 .fondonosotros {
-  background-image: linear-gradient(120deg, blueviolet, purple); }
+  background-color: blueviolet;}
 
 .nosotros {
-  padding: 20px;
-  padding-bottom: 20px;
-  background-image: linear-gradient(120deg, blueviolet, purple); }
+  padding: 10px;
+  background-color: blueviolet; }
+  
   .nosotros__texto {
     font-size: 30px;
-    padding-bottom: 20px;
-    background-image: linear-gradient(120deg, blueviolet, purple); }
+    background-color: blueviolet; }
 
 .img__clientes {
   padding-top: 100px;
@@ -83,7 +81,7 @@ iframe {
   display: inline-block;
   align-items: center;
   margin: 0;
-  transform: translate(100px, -100px); 
+  transform: translate(70px, -100px); 
 }
 .Footergenerico {
   background-color: rgb(35, 34, 36);
@@ -100,7 +98,12 @@ iframe {
   color: white;
 }
 
+ 
+
 @media (max-width: 360px) {
+  .tarjetas {
+    max-width: 250px;
+  }
   .main {
     background-color: blueviolet
     display: grid;} 
@@ -115,6 +118,18 @@ iframe {
     max-width: fit-content; }
   .instagram {
     display: none; } 
+}
+.botona {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 550px) {
